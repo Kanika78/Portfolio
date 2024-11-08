@@ -1,0 +1,28 @@
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color:#282828;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap : 10px;
+}
+.footer-content{
+    display: flex;
+    gap : 10px;
+}
+.footer-content a{
+    text-decoration: none;
+    color : inherit;
+    font-size: 30px;
+}
+.copyright{
+    color: #fafafa;
+    font-size: 15px;
+    font-weight: 500;
+}
+.footer-content a:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
